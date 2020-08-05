@@ -1,5 +1,5 @@
 {% set name = "itemloaders" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 306b2b151491e9b2eb3ea44bd65b9ab5f1ace37fcd3cb31b71f4a0f72f909a85
+  sha256: f5b315d24322b6a0d9150c4d74f92f93b1bd5247bc0ce64c2b46de30710df211
 
 build:
   noarch: python
