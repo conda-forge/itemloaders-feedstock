@@ -1,5 +1,5 @@
 {% set name = "itemloaders" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f5b315d24322b6a0d9150c4d74f92f93b1bd5247bc0ce64c2b46de30710df211
+  sha256: a7803a1c27177d73329a0cc83a9c10de50fa4d4f37970e0194e8ae24b1fb7066
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -39,7 +39,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Collect data from HTML and XML sources'
+  summary: Collect data from HTML and XML sources
   description: |
     Library that helps you collect data from HTML and XML sources.
 
