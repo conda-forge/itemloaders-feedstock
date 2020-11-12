@@ -5,7 +5,7 @@ Home: https://github.com/scrapy/itemadapter
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/itemloaders-feedstock/blob/master/LICENSE.txt)
 
 Summary: Collect data from HTML and XML sources
 
