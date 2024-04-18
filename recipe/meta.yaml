@@ -35,7 +35,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/scrapy/itemadapter
+  home: https://github.com/scrapy/itemloaders
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
