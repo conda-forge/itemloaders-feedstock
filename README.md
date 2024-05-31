@@ -3,7 +3,7 @@ About itemloaders-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/itemloaders-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/scrapy/itemadapter
+Home: https://github.com/scrapy/itemloaders
 
 Package license: BSD-3-Clause
 
