@@ -1,13 +1,13 @@
 {% set name = "itemloaders" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b5338308a819098f43525b7afc5f7d46ba338ba4710f5ebe7a21b3b47bb29929
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: e6feec5e44e92e1931dbd70fce4da430491ee4cbc9a93a725351e4f0d614a411
 
 build:
   noarch: python
